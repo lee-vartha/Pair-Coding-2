@@ -19,8 +19,7 @@ function filterString(arr){
 console.log(newArray([1, 2, "a", "b"]));
 console.log(filterString([1, 2, "a", "b"]));
 
-// Create a function that takes an 2D array with numbers and return a new (single) array with the largest numbers of each.
-
+// Create a function that takes a 2D array with numbers and return a new (single) array with the largest numbers of each.
 
 function largestNumbers (arr){
     let newArr = []
@@ -36,3 +35,17 @@ function largestNumbers (arr){
     return newArr
 }
 console.log(largestNumbers([[1,3,5], [1,6,8],[5,1,6]]))
+
+// create a function that returns the area of a rectangle
+function area(a, b){
+    return a*b
+} 
+
+// Create a function to reverse an array 
+
+// revArray([1,2,3,4]) -> ([4,3,2,1])
+
+function revArray(arr){
+    return arr.reverse()
+}
+console.log (revArray([1,2,3,4,5]))
