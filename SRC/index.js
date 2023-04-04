@@ -36,15 +36,13 @@ function largestNumbers (arr){
 }
 console.log(largestNumbers([[1,3,5], [1,6,8],[5,1,6]]))
 
-// create a function that returns the area of a rectangle
+//Create a function that returns the area of a rectangle
 function area(a, b){
     return a*b
 } 
+console.log(area(10, 20))
 
 // Create a function to reverse an array 
-
-// revArray([1,2,3,4]) -> ([4,3,2,1])
-
 function revArray(arr){
     return arr.reverse()
 }
