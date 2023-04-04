@@ -1,5 +1,5 @@
 # Pair-Coding-2
-// Lee is the driver, Ollie is the navigator.
+Lee is the driver, Ollie is the navigator.
 
 Created Dev branch
 Create a function that takes an array of numbers and strings and return a new array without strings.
@@ -47,4 +47,19 @@ function minNum(arr){
         arr[i] = Math.max(...arr[i]);
     }
     return arr.flat();
+}
+
+Create a function that returns the area of a rectangle
+
+Solution 1:
+function area(a, b){
+    return a*b
+}
+
+Create a function to reverse an array
+
+Solution 1:
+
+function revArray(arr){
+    return arr.reverse()
 }
